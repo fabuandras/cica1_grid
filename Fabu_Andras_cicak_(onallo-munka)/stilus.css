@@ -1,0 +1,44 @@
+.tarolo{
+  margin: auto;
+  max-width: 1000px;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fejlec{
+  background-image: url(images/hero.jpg);
+  background-position: bottom;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 15px;
+  padding-top: 30px;
+  padding-left: 130px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: brown;
+}
+
+.menu li {
+  padding: 15px;
+  border-radius: 30px;
+  background-color: orange;
+}
+
+.menu li:hover {
+  background-color: rgb(65, 20, 25);
+}
+
+.menu a:hover {
+  background-color: rgb(219, 196, 196);
+}
